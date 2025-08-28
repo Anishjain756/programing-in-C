@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int t, n, y;
+    printf("Enter the number you want to print table:");
+    scanf("%i", &t);
+    n = 1;
+    while (n != 11)
+    {
+        y = t * n;
+        printf("%i x %i = %i\n", t, n, y);
+        n = n + 1;
+    }
+}
