@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+int n1,n2,s;
+n1=5;
+n2=6;
+s=n1+n2;
+printf("sum=%d",s);
+int n3,n4;
+scanf("n3=%d",&n3);
+scanf("n4=%d",&n4);
+int s2=n3+n4;
+printf("sum is= %d",s2);
+return 0;
+}
